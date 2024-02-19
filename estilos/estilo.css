@@ -1,0 +1,131 @@
+*{
+  font-family:'Arial Narrow';
+}
+#header {
+	height:140px;
+	background-color: #6A006B;
+  border-radius: 50px;
+	}
+
+  body{
+    background-color: #202020;
+  }
+
+  .container{
+    display: grid;
+    flex-wrap: nowrap;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 500px);
+    grid-gap: 10px;
+  }
+
+  .divimagenes{
+  object-fit: scale-down ;
+  height: 500px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 5px solid  #424242;
+  border-radius: 50px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display:block;
+  background-color:#313131;
+}
+
+.divtexto{
+  width: 80%;
+  height: 300px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 5px solid  #424242;
+  border-radius: 50px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display:block;
+  background-color:#313131;
+}
+
+.divimagenes img {
+  display: block;
+  width: auto;
+  height:300px;
+  object-fit: scale-down;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  z-index: -1;
+}
+
+.divNorte{
+  position: relative;
+  float: left;
+  left: 1000px;
+  top:-650px;
+  background-color: #1f2122;
+  padding: 5px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.divSur{
+  position: relative;
+  float: left;
+  left: 1000px;
+  top:-75px;
+  background-color: #1f2122;
+  padding: 5px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.divOeste{
+  position: relative;
+  float: left;
+  left: 450px;
+  top:-350px;
+  background-color: #1f2122;
+  padding: 5px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.divEste{
+  position: relative;
+  float: left;
+  left: 1000px;
+  top:-450px;
+  background-color: #1f2122;
+  padding: 5px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+h1 {
+	font-size:2.5em;
+	font-weight:normal;
+	cursor:default;
+	position:relative; top:50px; left:30px;
+	letter-spacing:1px;
+	color:#ffffff;
+	font-style:bold;
+	}
+
+  h2 {
+    font-size: 1.5em;
+    font-weight:normal;
+    cursor:default;
+    letter-spacing:1px;
+    position:relative; top:50px; left:30px;
+    color:antiquewhite;
+    font-style:normal;
+    }
